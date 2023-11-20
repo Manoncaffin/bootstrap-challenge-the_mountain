@@ -1,0 +1,19 @@
+body,
+html {
+    height: 100%;
+}
+
+#home {
+    background-image: url("./images/bg_header.jpg");
+    height: 100vh;
+    width: 100vw;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-your {
+    width: 140px;
+    height: auto;
+}
