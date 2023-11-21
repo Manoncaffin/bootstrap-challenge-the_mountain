@@ -9,7 +9,6 @@ html {
     width: 100vw;
 
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -17,3 +16,27 @@ html {
     width: 140px;
     height: auto;
 }
+
+.logo{
+    margin-left: 1px;
+    margin-top: 7px;
+}
+
+.petit-titre{
+    font-size: 50px;
+}
+
+.gros-titre{
+    font-size: 80px;
+}
+
+#about{
+    background-image: url(./images/bg_nuage.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
+.h1{
+    font-size: 50px;
+}
+
