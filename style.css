@@ -54,7 +54,7 @@ html {
 }
 
 #photos {
-    
+
 }
 
 #mail {
@@ -62,4 +62,10 @@ html {
     height: 55vh;
     background-position: center;
     background-size: cover;
+}
+
+@media (max-width: 991px) {
+    #logosPartenaires{
+        flex-direction: column;
+    }
 }
