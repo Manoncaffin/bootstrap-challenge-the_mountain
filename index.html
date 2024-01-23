@@ -59,15 +59,15 @@
 
 
                 <div class="pt-3">
-                    <button class="btn btn-lg text-white video btn-info fs-4">Learn more</button>
-                    <button class="btn btn-lg video btn-danger fs-4">Download</button>
+                    <button class="btn btn-lg text-white video btn-info fs-4 rounded-0">Learn more</button>
+                    <button class="btn btn-lg video btn-danger fs-4 rounded-0">Download</button>
                 </div>
             </div>
         </section>
 
         <section id="features" class="d-flex justify-content-center">
             <div class="container-md row pt-5 pb-5">
-                <article class="col-4 text-center">
+                <article class="col-md-4 text-center">
                     <div class="pb-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor"
                             class="bi bi-pencil" viewBox="0 0 16 16">
@@ -82,7 +82,7 @@
                         labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </article>
 
-                <article class="col-4 text-center">
+                <article class="col-md-4 text-center">
                     <div class="pb-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor"
                             class="bi bi-camera" viewBox="0 0 16 16">
@@ -99,7 +99,7 @@
                         labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </article>
 
-                <article class="col-4 text-center">
+                <article class="col-md-4 text-center">
                     <div class="pb-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor"
                             class="bi bi-bookmark" viewBox="0 0 16 16">
@@ -118,25 +118,25 @@
 
         <section id="about" class="d-flex justify-content-center text-start">
             <div class="container-md row">
-                <div class="col-6">
+                <div class="col-md-6">
                 </div>
 
-                <div class="col-6 bg-info text-white bg-opacity-25">
+                <div class="col-md-6 bg-info text-white bg-opacity-25">
                     <div class="p-5">
-                        <h2 class="fs-1 pb-4">Ligula Mattis Ornane Ultricies</h2>
+                        <h2 class="fs-1 pt-4 pb-4">Ligula Mattis Ornane Ultricies</h2>
                         <h3 class="fs-4 pb-4">Pellentesque Cursus Amet Parturient Etiam class</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                             utlabore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     </div>
                     <!-- ajouter des bordures -->
                     <div class="d-flex justify-content-around borderAbout">
-                        <div class="flex-column text-center">
-                            <h4>Ultricies</h4>
+                        <div class="cadres flex-column text-center">
+                            <h4 class="pb-5">Ultricies</h4>
                             <h4>23,578</h4>
                         </div>
 
-                        <div class="flex-column text-center">
-                            <h4>Fermentum</h4>
+                        <div class="cadres flex-column text-center">
+                            <h4 class="pb-5">Fermentum</h4>
                             <h4>12,702</h4>
                         </div>
                     </div>
@@ -146,10 +146,10 @@
 
         <section id="blog" class="d-flex justify-content-center text-start">
             <div class="container-md row">
-                <div class="col-7">
+                <div class="col-md-7">
                     <div>
                         <h1 class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-                        <p class="pt-5 pb-2">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        <p class="pt-5 pb-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                             doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
                             quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
                             sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
@@ -163,7 +163,7 @@
                     </div>
 
                     <div class="pb-5">
-                        <button class="btn btn-lg video btn-danger fs-4">Take a look
+                        <button class="btn btn-lg video btn-danger fs-4 rounded-0">Take a look
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
@@ -173,15 +173,15 @@
                     </div>
                 </div>
 
-                <div class="col-5">
-                    <img src="./images/1200.jpeg" class="velo" width="100%" height="auto">
+                <div class="col-md-5 d-flex align-items-center">
+                    <img src="./images/1200.jpeg" class="velo" width="90%" height="auto">
                 </div>
             </div>
         </section>
 
         <section id="history" class="d-flex justify-content-center text-start">
             <div class="container-md row">
-                <div class="col-6 bg-info text-white bg-opacity-25">
+                <div class="col-md-6 bg-info text-white bg-opacity-25">
                     <div class="p-5">
                         <h2 class="fs-3 lh-5 pb-4">Donec sed odio dui. Integer posuere erat a ante venenatis dapibus
                             posuere velit aliquet. Praesent commodo cursus magna. Vel scelerisque nisl consectetur et.
@@ -202,31 +202,102 @@
             </div>
         </section>
 
-        <section id="photos">
-            <div class="container-md d-flex">
-                <div class="col-8">
-                    <img src="./images/300.jpeg" class="haut-parleur" width="100%" height="auto">
-                    
-                    
-                    <div class="container-md row d-flex">
-                        <div class="col-6">
-                            <img src="./images/800.jpeg" class="monument" width="100%" height="auto">
+        <section id="photos" class="p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+
+                        <div class="row">
+                            <img src="./images/300.jpeg" alt="300" width="100%" height="auto" class="pt-2 pb-2">
                         </div>
-        
-                        <div class="col-6">
-                            <img src="./images/400.jpeg" class="lumiere" width="100%" height="auto">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./images/800.jpeg" alt="800" width="100%" height="auto" class="pt-2">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./images/400.jpeg" alt="400" width="100%" height="auto" class="pt-2 pb-3">
+                                <img src="./images/2476.jpeg" alt="2476" width="100%" height="auto" class="pt-1 pb-4">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="./images/140.jpeg" alt="140" width="100%" height="auto">
                         </div>
                     </div>
-                </div>
 
-                <div class="col-4">
-                    <img src="./images/776.jpeg" class="desert" width="100%" height="auto">
+                        <div class="col-md-4">
+                            <img src="./images/776.jpeg" alt="776" width="100%" height="auto" class="py-2">
+                            <img src="./images/439.jpeg" alt="439" width="100%" height="auto" class="py-2">
+                        </div>
+                    
                 </div>
             </div>
 
 
+
         </section>
+
+        <section class="partenaires">
+            <div class="container-md pt-5 pb-5 d-flex justify-content-between">
+                <div>
+                    <img src="./images/logo-sample-01.jpg" style="width: 110px;">
+                </div>
+                <div>
+                    <img src="./images/logo-sample-02.jpg" style="width: 120px;">
+                </div>
+                <div>
+                    <img src="./images/logo-sample-03.png" style="width: 120px;">
+                </div>
+                <div>
+                    <img src="./images/logo-sample-04.jpg" style="width: 120px;">
+                </div>
+                <div>
+                    <img src="./images/logo-sample-05.jpg" style="width: 130px;">
+                </div>
+                <div>
+                    <img src="./images/logo-sample-06.png" style="width: 130px;">
+                </div>
+            </div>
+        </section>
+
+        <section id="mail" class="d-flex justify-content-center align-items-center">
+            <div class="container-md">
+                <div class="col-md-6">
+                    <h2 class="fs-3 lh-5 pt-4">Habitant morbi tristique senectus et aenean vel elit</h2>
+                    <h2 class="fs-3 lh-5 pb-4">scelerisque mauris pellentesque.</h2>
+                    <p>Praesent tristique magna sit amet. Convallis aenean et tortor at risus viverra
+                        adipiscing. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Amet
+                        justo donec enim diam vulputate. Purus ut faucibus pulvinar elementum integer enim.</p>
+                </div>
+                <div class="col-md-4 form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com">
+                    <label for="floatingInputDisabled">Your Email Here...</label>
+                </div>
+                <div class="pt-3 pb-3">
+                    <button class="btn btn-lg video btn-danger fs-4 rounded-0">Submit Newsletter</button>
+                </div>
+
+            </div>
+        </section>
+
     </main>
+
+    <footer class="bg-black">
+        <div class="container-md">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-white fs-1 pt-5 pb-2">Your Logo</h3>
+                    <p class="text-white pb-3">Ut enim ad minim veniam. Neque porro quisquam est, qui
+                        dolorem <span class="text-info">The maitre Jet d'Ail</span></p>
+                </div>
+                <div class="col"></div>
+            </div>
+
+        </div>
+
+
+    </footer>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
