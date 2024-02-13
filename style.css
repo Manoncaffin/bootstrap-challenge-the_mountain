@@ -6,7 +6,6 @@ html {
 #home {
     background-image: url("./images/bg_header.jpg");
     height: 100vh;
-
     background-position: center;
     background-size: cover;
 }
@@ -31,7 +30,7 @@ html {
 
 #about {
     background-image: url(./images/bg_nuage.jpg);
-    height: 70vh;
+    min-height: 70vh;
     background-position: center;
     background-size: cover;
 }
@@ -51,10 +50,6 @@ html {
     border: solid white 1px;
     width: 200px;
     height: 200px;
-}
-
-#photos {
-
 }
 
 #mail {
